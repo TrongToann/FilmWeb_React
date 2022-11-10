@@ -1,0 +1,27 @@
+@mixin move_input {
+    -moz-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.9);
+    -o-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.9);
+    -webkit-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.9);
+    transition: all 0.5s cubic-bezier(0.53, 0.01, 0.35, 1.9);
+}
+@mixin font-for-all {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@mixin button_slime {
+    border: 1px solid $primary-color ;
+    background-color: $primary-color;
+}
+@mixin text_Center {
+    text-align: center; 
+}
+@mixin flex {
+    display: flex;
+}
+@mixin flex_Between {
+    display: flex;
+    justify-content: space-between;
+}
+@mixin absoluteHere {
+    position: absolute ; 
+}

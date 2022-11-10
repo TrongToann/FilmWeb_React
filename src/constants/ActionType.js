@@ -1,0 +1,4 @@
+export const FETCH_PRODUCT = 'FETCH_PRODUCTS' ; 
+export const ADD_PRODUCT = 'ADD_PRODUCTS' ; 
+export const UPDATE_PRODUCT = 'UPDATE_PRODUCTS' ; 
+export const DELETE_PRODUCT = 'DELETE_PRODUCTS' ; 
